@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+
+    <style>
+      .navbar .dropdown-menu .dropdown-item:hover {
+       background-color:burlywood;
+       color: white; 
+   }
+   .about-us-section {
+              padding: 50px 0;
+          }
+          /* body {
+              background-color: burlywood;
+          } */
+          .about-us-section h1, .about-us-section p {
+              text-align: center;
+          }
+          .team-member {
+              text-align: center;
+              margin-bottom: 30px;
+          }
+          .team-member img {
+              border-radius: 50%;
+              width: 150px;
+              height: 150px;
+              object-fit: cover;
+          }
+   
+   </style>
+  </head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+    <div class="container-fluid" style="background-color: rgb(223, 145, 0); height: 50px;">
+      <a class="navbar-brand" href="#" style="color: rgb(255, 255, 255); font-size:xx-large"><strong><em>Hot N' Fast </em></strong><sub style= "font-size:medium;"><B>RESTAURANT</B></sub></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../Home/index.html" style="color: rgb(0, 0, 0); font-size: larger;">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../About us/aboutus.html" style="color: rgb(0, 0, 0); font-size: larger;">Who we are</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style= "color: rgb(0, 0, 0); font-size: larger;">
+              Menu
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../Items/BarBQ.html"    > Bar B.Q   </a></li>
+              <li><a class="dropdown-item" href="../Items/FastFood.html" > Fast Food </a></li>
+              <li><a class="dropdown-item" href="../Items/Kardhai.html"  > Kardhai   </a></li>
+              <li><a class="dropdown-item" href="../Items/Sweets.html"   > Sweets    </a></li>
+              <li><a class="dropdown-item" href="../Items/Drink.html"    > Drinks    </a></li>
+              
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../Order/order.html" style="color: rgb(0, 0, 0); font-size: larger;">Order</a>
+          </li>
+            <!-- <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#"> Plain Burger</a></li>
+              <li><a class="dropdown-item" href="#"> Zinger Burger</a></li>
+              <li><a class="dropdown-item" href="#"> Mayo Burger</a></li>
+              <li><a class="dropdown-item" href="#"> Double Cheez Zinger Burger</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul> -->
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../Contact us/contactus.html" style="color: rgb(0, 0, 0); font-size: larger;">Get in touch</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav> 
+      
+<div class="container mt-5">
+      <h1> About Us </h1>
+ 
+      </div>
+
+       <!-- Main content of the About Us page -->
+    <div class="container mt-5">
+      <h1>Hot N' Fast Restaurant</h1>
+      <p>We are dedicated to serving the best food with great service.</p>
+  </div>
+  <div class="container about-us-section">
+      <h1>Hot N' Fast Restaurant</h1>
+      <p>Welcome to Hot N' Fast, where we serve the finest cuisine with a commitment to quality and excellence.</p>
+      
+      <h2>Our History</h2>
+      <p>Hot N' Fast Restaurant was founded in 2010 with a vision to provide exceptional dining experiences. Over the years, we have grown and evolved, always staying true to our core values of quality and customer satisfaction.</p>
+      
+      <h2>Our Team</h2>
+      <div class="row">
+          <div class="col-md-4 team-member">
+              <img src="data:image/jpeg;base64,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" alt="Owner">
+              <h4>Shoaib Mughal</h4>
+              <p>Owner</p>
+          </div>
+          <div class="col-md-4 team-member">
+              <img src="https://img.freepik.com/premium-photo/chef-restaurant-cooking_620652-10906.jpg?ga=GA1.1.1886264524.1704282568&semt=ais_user" alt="Chef">
+              <h4>Sarim Ali</h4>
+              <p>Head Chef</p>
+          </div>
+          <div class="col-md-4 team-member">
+              <img src="https://img.freepik.com/free-photo/handsome-man-black-suit-working-cafe_1157-45662.jpg?ga=GA1.1.1886264524.1704282568&semt=ais_user" alt="Manager">
+              <h4>Ali Khan</h4>
+              <p>Restaurant Manager</p>
+          </div>
+      </div>
+      
+      <h2>Our Cuisine</h2>
+      <p>We offer a wide variety of dishes, from traditional favorites to innovative new creations. Our chefs use only the freshest ingredients to prepare meals that are both delicious and visually stunning.</p>
+      
+      <h2>Customer Testimonials</h2>
+      <p>"The best dining experience we've ever had!" - Lala Gulsher</p>
+      <p>"Exceptional food and fantastic service." - Abrar Ahmed</p>
+      
+      <h2>Our Values</h2>
+      <p>At Hot N' Fast Restaurant, we are committed to sustainability and ethical practices. We source our ingredients from local farmers and suppliers, ensuring that our food is fresh and our impact on the environment is minimized.</p>
+      
+      <h2>Visit Us</h2>
+      <p>We look forward to welcoming you to <a href="../Home/index.html">Hot N' Fast RESTAURANT</a> Make a reservation today and experience the best in dining.</p>
+  </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>

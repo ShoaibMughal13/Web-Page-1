@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+      .hero-section {
+          background-image: url('https://images.unsplash.com/photo-1541753866388-0b3c701627d3');
+          background-size: cover;
+          background-position: center;
+          height: 400px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: white;
+          text-align: center;
+          margin-bottom: 50px;
+      }
+
+      .hero-section h1 {
+          font-size: 3em;
+          margin: 0;
+      }
+    </style>
+
+
+  </head>
+<body>
+   
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" >
+        <div class="container-fluid" style="background-color: rgb(223, 145, 0); height: 50px;">
+          <a class="navbar-brand" href="#" style="color: rgb(255, 255, 255); font-size:xx-large"><strong><em>Hot N' Fast </em></strong><sub style= "font-size:medium;"><B>RESTAURANT</B></sub></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: rgb(0, 0, 0); font-size: larger;">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../About us/aboutus.html" style="color: rgb(0, 0, 0); font-size: larger;">Who we are</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style= "color: rgb(0, 0, 0); font-size: larger;">
+                  Menu
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="../Items/BarBQ.html"    > Bar B.Q   </a></li>
+                  <li><a class="dropdown-item" href="../Items/FastFood.html" > Fast Food </a></li>
+                  <li><a class="dropdown-item" href="../Items/Kardhai.html"  > Kardhai   </a></li>
+                  <li><a class="dropdown-item" href="../Items/Sweets.html"   > Sweets    </a></li>
+                  <li><a class="dropdown-item" href="../Items/Drink.html"    > Drinks    </a></li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Order/order.html" style="color: rgb(0, 0, 0); font-size: larger;">Order</a>
+              </li>
+                <!-- <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#"> Plain Burger</a></li>
+                  <li><a class="dropdown-item" href="#"> Zinger Burger</a></li>
+                  <li><a class="dropdown-item" href="#"> Mayo Burger</a></li>
+                  <li><a class="dropdown-item" href="#"> Double Cheez Zinger Burger</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul> -->
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../Contact us/contactus.html" style="color: rgb(0, 0, 0); font-size: larger;">Get in touch</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> 
+      
+      <!-- <div class="container mt-5" >
+        <h1>Home</h1>
+  -->
+        <!-- Start Slider Home Page -->
+      <!-- </div>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://img.freepik.com/free-photo/cook-preparing-salad-with-meat-kitchen_23-2148040159.jpg?t=st=1720010509~exp=1720014109~hmac=9c3e2d9aaa6f7b9036d12067771855f84de19883273c67a473dd545a9393729a&w=740" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item active">
+            <img src="https://img.freepik.com/free-photo/funny-male-chef-cook-posing-near-table-with-lot-fresh-vegetables_613910-9995.jpg?t=st=1720010147~exp=1720013747~hmac=b77d8447813611010dbffd69a57219161e95141725aef3fdce93554d6f5e7b05&w=740" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/premium-photo/ramadan-dinner-arabic-middle-eastern-traditional-cuisine_853677-122618.jpg?ga=GA1.1.1147738296.1719504210&semt=ais_user" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div> -->
+      <!-- Stop Slider Home Page -->
+
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://media.istockphoto.com/id/1332332633/photo/charcoal-for-barbecue-background-with-flames.jpg?s=612x612&w=0&k=20&c=qSH9AIM98EQ22UcAWFvJuppOK47uuMffgcjig2EtFBQ=" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://img.freepik.com/premium-photo/steak-plate-design-restaurant-dinner-menu_1048944-23511099.jpg?w=740" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://media.istockphoto.com/id/1989273333/photo/steak-on-the-grill.jpg?s=1024x1024&w=is&k=20&c=TTvdPDh2u4tck45apv_7Z5i8jQmeDdEJKjwmCG5ox2U=" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Card Section -->
+       <!-- Card Section -->
+        
+    <div class="container mt-4">
+      <div class="row ">
+          <div class="col-md-6 col-sm-12 mb-4 "  >
+              <div class="custom-card"  data-aos="zoom-in">
+                  <img src="https://www.foodie.com/img/gallery/how-using-a-pellet-vs-charcoal-grill-affects-your-foods-taste/intro-1719345679.webp" alt="Image 1">
+                  <div class="custom-card-content">
+                      <button class="badge bg-warning text-dark">kitchen</button>
+                      <h5 class="card-title">How Using A Pellet Vs Charcoal Grill </h5>
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-6 col-sm-12  mb-4" >
+            <div class="custom-card" data-aos="fade-up">
+                <img src="https://media.istockphoto.com/id/632439546/photo/pasta-plate.jpg?s=612x612&w=0&k=20&c=zZPaNg_mf7cTVIeJPFVRtsjYClNYkGMcUc5ZBrARwZU=" alt="Image 1">
+                <div class="custom-card-content">
+                    <button class="badge bg-warning text-dark">kitchen</button>
+                    
+                    <h5 class="card-title">Pasta with tomato sauce shot from above on rustic wood table </h5>
+                </div>
+            </div>
+        </div>
+          </div>
+          </div>
+
+          <div class="container mt-4">
+            <div class="row ">
+                <div class="col-md-6 col-sm-12  mb-4"  >
+                    <div class="custom-card" data-aos="fade-right">
+                        <img src="https://media.istockphoto.com/id/1316145932/photo/table-top-view-of-spicy-food.jpg?b=1&s=612x612&w=0&k=20&c=X6CkFGpSKhNZeiii8Pp2M_YrBdqs7tRaBytkGi48a0U=" alt="Image 1">
+                        <div class="custom-card-content">
+                            <button class="badge bg-warning text-dark">kitchen</button>
+                            <h5 class="card-title">Top looking down at restaurant food spread on table. </h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-12 mb-4" >
+                  <div class="custom-card" data-aos="fade-left"> 
+                      <img src="https://media.istockphoto.com/id/1081422898/photo/pan-fried-duck.jpg?s=612x612&w=0&k=20&c=kzlrX7KJivvufQx9mLd-gMiMHR6lC2cgX009k9XO6VA=" alt="Image 1">
+                      <div class="custom-card-content">
+                          <button class="badge bg-warning text-dark">kitchen</button>
+                          
+                          <h5 class="card-title">Chef adding the final flourish by adding some liquorice flavoured parsley to the dish </h5>
+                      </div>
+                  </div>
+              </div>
+                </div>
+                </div>
+                <!-- .................................... -->
+                <div class="container mt-4">
+                  <div class="row ">
+                      <div class="col-md-6 col-sm-12 mb-4"  >
+                          <div class="custom-card"data-aos="fade-up-right">
+                              <img src="https://media.istockphoto.com/id/1408897449/photo/adana-kebab-served-in-a-wooden-cutting-board-isolated-on-wooden-background-side-view.jpg?s=612x612&w=0&k=20&c=ArsiX2gbGT0gg4xEoLG6gtxTqkPv9iMo861JfsR96rU=" alt="Image 1">
+                              <div class="custom-card-content">
+                                  <button class="badge bg-warning text-dark">kitchen</button>
+                                  <h5 class="card-title">Adana Kebab served in a wooden cutting board isolated on wooden background side view </h5>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-md-6 col-sm-12 mb-4" >
+                        <div class="custom-card" data-aos="fade-up-left">
+                            <img src="https://media.istockphoto.com/id/520421898/photo/beef-steaks-on-the-grill.jpg?s=612x612&w=0&k=20&c=x66gAivz2_zG-E-I963_VwySZQrNHXjD2Q0PW3NXeL4=" alt="Image 1">
+                            <div class="custom-card-content">
+                                <button class="badge bg-warning text-dark">kitchen</button>
+                                
+                                <h5 class="card-title">Juicy ribeye steak on the grill kissed by fire on an old fashioned charcoal barbecue.</h5>
+                            </div>
+                        </div>
+                    </div>
+                      </div>
+                      </div>
+                      <div class="container mt-4">
+                        <div class="row ">
+                            <div class="col-md-6 col-sm-12 mb-4"  >
+                                <div class="custom-card" data-aos="flip-left">
+                                    <img src="https://media.istockphoto.com/id/1346447197/photo/friends-and-fast-food.jpg?s=612x612&w=0&k=20&c=ctQPBY9SVUNcxNvkO7HpzEeiRTHrF3ciM6T4jhWXNV4=" alt="Image 1">
+                                    <div class="custom-card-content">
+                                        <button class="badge bg-warning text-dark">kitchen</button>
+                                        <h5 class="card-title">Double Cheese Burger with Fries </h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-12 mb-4" >
+                              <div class="custom-card" data-aos="flip-right">
+                                  <img src="https://media.istockphoto.com/id/1324258060/photo/marinated-shashlik-preparing-on-a-barbecue-grill-over-charcoal-shashlik-or-shish-kebab.jpg?s=612x612&w=0&k=20&c=MkQ6N8trki-g9aZ24QesuRwc5mpkhJTmA0XYMsdoNX4=" alt="Image 1">
+                                  <div class="custom-card-content">
+                                      <button class="badge bg-warning text-dark">kitchen</button>
+                                      
+                                      <h5 class="card-title">Delicious & spicy tikka boti (barbecue) </h5>
+                                  </div>
+                              </div>
+                          </div>
+                            </div>
+                            </div>
+                            <div class="container mt-4">
+                              <div class="row ">
+                                  <div class="col-md-6 col-sm-12 mb-4"  >
+                                      <div class="custom-card" data-aos="flip-up">
+                                          <img src="https://media.istockphoto.com/id/1225491381/photo/cheesecake-with-caramel-sauce.jpg?s=612x612&w=0&k=20&c=RhQ8vfvs_W2jJw7EBahIF-UImeBABrVNflM3whnUm_M=" alt="Image 1">
+                                          <div class="custom-card-content">
+                                              <button class="badge bg-warning text-dark">kitchen</button>
+                                              <h5 class="card-title">Delicious Cheese cream Cake with chocolate </h5>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-md-6 col-sm-12 mb-4" >
+                                    <div class="custom-card"data-aos="zoom-in-left">
+                                        <img src="https://media.istockphoto.com/id/505168330/photo/cup-of-cafe-latte-with-coffee-beans-and-cinnamon-sticks.jpg?s=612x612&w=0&k=20&c=h7v8kAfWOpRapv6hrDwmmB54DqrGQWxlhP_mTeqTQPA=" alt="Image 1">
+                                        <div class="custom-card-content">
+                                            <button class="badge bg-warning text-dark">kitchen</button>
+                                            
+                                            <h5 class="card-title">Cup of coffee with smoke and coffee beans on old wooden background </h5>
+                                        </div>
+                                    </div>
+                                </div>
+                                  </div>
+                                  </div>
+                                  <div class="container mt-4">
+                                    <div class="row ">
+                                        <div class="col-md-6 col-sm-12 mb-4"  >
+                                            <div class="custom-card" data-aos="zoom-in">
+                                                <img src="https://media.istockphoto.com/id/912302488/photo/tea-freshly-brewed-in-a-glass-cup-and-some-herbs-on-a-dark-rustic-wooden-background-healthy.jpg?s=612x612&w=0&k=20&c=oHN0_NweGer9YqzX5YJce7EFkNXaJ8SbgvpCm71Gc-0=" alt="Image 1">
+                                                <div class="custom-card-content">
+                                                    <button class="badge bg-warning text-dark">kitchen</button>
+                                                    <h5 class="card-title">Cup of tea with mint on wooden </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-12 mb-4" >
+                                          <div class="custom-card" data-aos="zoom-out">
+                                              <img src="https://media.istockphoto.com/id/873058070/photo/sweet-homemade-strawberry-trifle-dessert.jpg?s=612x612&w=0&k=20&c=86GzoV7IewsMSKGIU2csTnkrlWRW3PxhfRv9VfZ7SzU=" alt="Image 1">
+                                              <div class="custom-card-content">
+                                                  <button class="badge bg-warning text-dark">kitchen</button>
+                                                  
+                                                  <h5 class="card-title">Cream Custard With Fruits </h5>
+                                              </div>
+                                          </div>
+                                      </div>
+                                        </div>
+                                        </div>
+
+         
+
+
+
+<script src="../assets/bootstrap-5.3.3-dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+    </body>
+</html>

@@ -1,0 +1,47 @@
+.container-fluid{
+    color: rgb(223, 238, 10) !important;
+}
+ 
+.carousel-item{
+    height: 600px;
+    width: 300px;
+}
+.custom-card img{
+    width: 545px;
+    height: 300px;
+    
+    
+}
+.custom-card{
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 8px 8px 0 rgba(0, 0, 0, 0);
+     
+
+}
+.custom-card-content {
+    padding: 20px;
+}
+
+.badge {
+    margin-bottom:  20px;
+
+}
+
+@media only screen and (max-width: 700px) {
+    
+      .custom-card-content{
+        padding:10px ;
+      }
+    
+  }
+
+  @media only screen and (min-width: 500px) {
+    
+      .custom-card-content{
+        padding:20px ;
+      }
+    
+  }
+
